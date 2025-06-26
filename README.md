@@ -186,9 +186,12 @@ After setting up the database connection, the next step is to define the models,
 $ psql -U postgres -d express_application
 \dt
 \d "Users"
+SELECT * FROM "Users";
 ```
+Note: PostgreSQL treats unquoted identifiers (such as table names) as case-insensitive and automatically converts them to lowercase. Since our table name is User, we need to use quotation marks to preserve the case and reference it correctly as "Users".
 
 ### 5. **Run testDatabase.js to test insert to database**
 ```bash
 $ node testDatabase.js
 ```
+
