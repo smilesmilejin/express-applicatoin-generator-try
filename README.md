@@ -15,3 +15,5 @@ On MacOS or Linux, run the app with this command:
 $ DEBUG=myapp:* npm start
 
 
+# It runs in the following:
+http://localhost:3000/
