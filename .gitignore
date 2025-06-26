@@ -17,3 +17,5 @@ package-lock.json
 # OS-specific files
 .DS_Store   # macOS
 Thumbs.db   # Windows
+
+READMEprivate.md
